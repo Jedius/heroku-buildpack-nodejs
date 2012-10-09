@@ -5,4 +5,7 @@ cat <<EOF
 ---
 config_vars:
   PATH: bin:node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/app/vendor/phantomjs/bin:/app/vendor/casperjs/bin
+default_process_types:
+  console: "vendor/phantomjs/bin/phantomjs"
+  console: "vendor/phantomjs/bin/casperjs"
 EOF
