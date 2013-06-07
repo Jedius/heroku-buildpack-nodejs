@@ -185,4 +185,4 @@ curl "http://stomita-buildpack-phantomjs.s3.amazonaws.com/buildpack-phantomjs-1.
 mkdir -p $BUILD_DIR/vendor/casperjs
 git clone git://github.com/n1k0/casperjs.git $BUILD_DIR/vendor/casperjs
 cd vendor/casperjs
-git checkout tags/1.0
+git checkout tags/1.0.2
